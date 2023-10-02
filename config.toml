@@ -1,0 +1,145 @@
+baseurl = "https://blist.vercel.app"
+metaDataFormat = "yaml"
+title = "Blog | Adriel Filipe design"
+theme = "blist"
+
+DefaultContentLanguage = "pt"
+DefaultContentLanguageInSubdir = true
+[languages]
+  [languages.pt]
+    contentDir = "content/pt" #Portugues
+    weight = 1
+    languageName = "Portuguese"
+    [languages.pt.params]
+      introTitle = "Que bom te ver por aqui!"
+      introSubtitle = "Aqui você vai encontrar resenhas de livros e conteúdos de design para quem não é designer."
+      introPhoto = "/picture.jpg"
+      logo = "/adriel-filipe-logo.svg"
+    [[languages.pt.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.pt.menu.main]]
+        name = "Categorias"
+        url = "tags"
+        weight = 2
+
+    [[languages.pt.menu.main]]
+        name = "Sobre"
+        url = "page/about/"
+        weight = 3
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+  
+  # Enable search in header
+  enableSearch = true
+
+  # Option to customize the search parameters of a page
+  # Below are the supported options; Note that including entire content
+  # may slowdown the loading of search results
+  # Title of page is included by default
+  searchKeys = [
+    "tags",
+    "date",
+    "categories",
+    "summary",
+    "content",
+    "link",
+    "author"
+  ]
+
+  # Custom copyright - optional
+  copyright = "Copyright © 2023 - Adriel Filipe design · Todos os direitos reservados"
+  favicon = "/favicon.svg"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-gray-100"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
+  # Used to hide the post metadata such as posted date, reading time and word count
+  # Can be used at site level or page level
+  hideMeta = false
+
+  # To hide "Other languages" option if the post is available in multiple languages
+  # Can be used at site level or page level
+  hideOtherLanguages = false
+
+  # Add support for Table of contents
+  # Can be added to a page level also in markdown frontmatter
+  toc = true
+
+  # Hides the thumbnail in post view
+  # Thumbnails in home and blog pages will still be shown
+  # This setting can also be in page's markdown file
+  hidePageThumbnail = false
+
+# Comments system
+[params.comments]
+  # Supports disqus, giscus and utterances
+  # Check hugo docs for setting up disqus
+  system = "giscus"
+
+  # Options for giscus, exclude hyphens
+  repo = ""
+  repoid = ""
+  category = ""
+  categoryid = ""
+  mapping = ""
+  strict = ""
+  reactionsenabled = ""
+  emitmetadata = ""
+  inputposition = ""
+  theme = ""
+
+  # Options for utterances, exclude hyphens
+  # repo = ""
+  # issueterm = ""
+  # theme = ""
+
+[params.homepage.social]
+  # Global params common for both languages
+  title = "Me siga nas redes sociais"
+  description = "Lá você vai encontrar mais sobre os meus trabalhos e também um pouco do meu dia a dia."
+
+  [[params.homepage.social.icons]]
+    website = "linkedin"
+    url = "https://linkedin.com/in/"
+  [[params.homepage.social.icons]]
+    website = "github"
+    url = "https://github.com/adrielfilipedesign"
+  [[params.homepage.social.icons]]
+    website = "youtube"
+    url = "https://youtube.com"
+  [[params.homepage.social.icons]]
+    website = "instagram"
+    url = "https://instagram.com/adrielfilipe.design"
+  [[params.homepage.social.icons]]
+    website = "facebook"
+    url = "https://facebook.com/adrielfilipe.design"
+  [[params.homepage.social.icons]]
+    website = "behance"
+    url = "https://behance.net/adrielfilipedesign"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true

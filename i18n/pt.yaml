@@ -1,0 +1,91 @@
+# Content
+- id: postedOnDate
+  translation: "Publicado em {{ . }}"
+- id: lastModified
+  translation: "(Ultimá modificação em {{ . }})"
+- id: readMore
+  translation: "Saiba mais"
+- id: morePosts
+  translation: "Mais conteúdos"
+- id: olderPosts
+  translation: "Conteúdos mais antigos"
+- id: newerPosts
+  translation: "Conteúdos mais recentes"
+- id: previousPost
+  translation: "Conteúdo Anterior"
+- id: nextPost
+  translation: "Próximo conteúdo"
+- id: readTime
+  translation: "minutos"
+- id: words
+  translation: "palavras"
+
+# Date
+- id: January
+  translation: "Janeiro"
+- id: February
+  translation: "Fevereiro"
+- id: March
+  translation: "Março"
+- id: April
+  translation: "Abril"
+- id: May
+  translation: "Maio"
+- id: June
+  translation: "Junho"
+- id: July
+  translation: "Julho"
+- id: August
+  translation: "Agosto"
+- id: September
+  translation: "Setembro"
+- id: October
+  translation: "Outubro"
+- id: November
+  translation: "Novembro"
+- id: December
+  translation: "Dezembro"
+
+# 404 page
+- id: pageNotFound
+  translation: "Opa, essa página não existe. (404 error)"
+
+# Footer
+- id: poweredBy # Accepts HTML
+  translation: '<a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
+
+# Navigation
+- id: toggleNavigation
+  translation: "Expandir Menu"
+- id: gcseLabelShort
+  translation: "Pesquisar"
+- id: gcseLabelLong
+  translation: "Pesquisar {{ .Site.Title }}"
+- id: gcseClose
+  translation: "Fechar"
+
+# Staticman
+- id: noComment
+  translation: "Sem comentários"
+- id: oneComment
+  translation: "Comentário"
+- id: moreComment
+  translation: "Mais comentários"
+- id: useMarkdown
+  translation: "Você pode usar a sintaxe do Markdown"
+- id: yourName
+  translation: "Seu Nome"
+- id: yourEmail
+  translation: "Seu e-mail"
+- id: yourWebsite
+  translation: "Seu site"
+
+# Delayed Disqus
+- id: show
+  translation: "Mostrar"
+- id: comments
+  translation: "Comentários" 
+
+# Related posts
+- id: seeAlso
+  translation: "Veja também"
