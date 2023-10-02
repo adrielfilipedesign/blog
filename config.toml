@@ -1,4 +1,4 @@
-baseurl = "https://blist.vercel.app"
+baseurl = "https://adrielfilipedesign.github.io/blog"
 metaDataFormat = "yaml"
 title = "Blog | Adriel Filipe design"
 theme = "blist"
