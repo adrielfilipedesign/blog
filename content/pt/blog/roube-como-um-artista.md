@@ -4,7 +4,7 @@ title: "Roube como um Artista"
 description: "Um dos maiores clássicos para mentes criativas."
 tags: ["resenhas"]
 date: 2023-10-01
-thumbnail: https://adrielfilipe.com.br/images/adriel-filipe-roube-como-um-artista.jpg
+thumbnail: https://blog.adrielfilipe.com.br/images/adriel-filipe-roube-como-um-artista.jpg 
 ---
 
 <!--more-->
