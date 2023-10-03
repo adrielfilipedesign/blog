@@ -1,4 +1,4 @@
-baseurl = "https://adrielfilipedesign.github.io/blog"
+baseurl = "https://blog.adrielfilipe.com.br"
 metaDataFormat = "yaml"
 title = "Blog | Adriel Filipe design"
 theme = "blist"
