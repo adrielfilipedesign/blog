@@ -1,8 +1,9 @@
-baseurl = "https://blog.adrielfilipe.com.br"
+baseurl = "https://blist.vercel.app"
 metaDataFormat = "yaml"
 title = "Blog | Adriel Filipe design"
 theme = "blist"
 
+googleAnalytics = "G-QC0G5NSTE4"
 DefaultContentLanguage = "pt"
 DefaultContentLanguageInSubdir = true
 [languages]
@@ -34,7 +35,7 @@ DefaultContentLanguageInSubdir = true
   darkModeToggle = true
   
   # Enable search in header
-  enableSearch = true
+  enableSearch = false
 
   # Option to customize the search parameters of a page
   # Below are the supported options; Note that including entire content
@@ -109,13 +110,13 @@ DefaultContentLanguageInSubdir = true
 
   [[params.homepage.social.icons]]
     website = "linkedin"
-    url = "https://linkedin.com/in/"
+    url = "https://www.linkedin.com/in/adrielfilipe/"
   [[params.homepage.social.icons]]
     website = "github"
     url = "https://github.com/adrielfilipedesign"
   [[params.homepage.social.icons]]
     website = "youtube"
-    url = "https://youtube.com"
+    url = "https://www.youtube.com/channel/UC1AZv10i5eciSUcFuNwDkzA"
   [[params.homepage.social.icons]]
     website = "instagram"
     url = "https://instagram.com/adrielfilipe.design"
