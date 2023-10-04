@@ -1,6 +1,15 @@
 <header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
   <head>
     {{ template "_internal/google_analytics.html" . }}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC0G5NSTE4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QC0G5NSTE4');
+    </script>
   </head>
   
   <a href="{{ .Site.Home.Permalink }}" class="capitalize font-extrabold text-2xl">
