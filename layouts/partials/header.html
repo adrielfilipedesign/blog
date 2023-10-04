@@ -1,4 +1,8 @@
 <header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <head>
+    {{ template "_internal/google_analytics.html" . }}
+  </head>
+  
   <a href="{{ .Site.Home.Permalink }}" class="capitalize font-extrabold text-2xl">
     {{ if .Site.Params.logo }}
     <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" class="h-8 max-w-full" />
