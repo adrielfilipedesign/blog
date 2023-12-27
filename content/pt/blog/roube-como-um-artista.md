@@ -20,7 +20,7 @@ Quantidade de Páginas:159
 
 Título original: Steal like an artist
 
-<a target="_blank" href="https://www.amazon.com.br/Roube-Artista-Dicas-Sobre-Criatividade/dp/8532528422?&_encoding=UTF8&tag=adrielfiliped-20&linkCode=ur2&linkId=5a2695f502c138f32713e3a235c0e688&camp=1789&creative=9325">Link para compra</a>
+<a target="_blank" href="">Link para compra</a>
 
 
 > Arte é furto
@@ -79,7 +79,7 @@ Ao criar coisas, compartilhe com outras pessoas, observe coisas fora do usual. C
 
 ### Onde comprar “Roube como um artista”?
 
-Compre o livro Roube como um artista pelo meu <a target="_blank" href="https://www.amazon.com.br/Roube-Artista-Dicas-Sobre-Criatividade/dp/8532528422?&_encoding=UTF8&tag=adrielfiliped-20&linkCode=ur2&linkId=5a2695f502c138f32713e3a235c0e688&camp=1789&creative=9325">link de afiliado</a>, assim você torna essa e outras resenhas possíveis. Obrigado pela leitura!
+Compre o livro Roube como um artista pelo meu <a target="_blank" href="">link de afiliado</a>, assim você torna essa e outras resenhas possíveis. Obrigado pela leitura!
 
 Esses foram alguns dos pontos altos que encontrei neste livro. Roube como um artista é uma leitura indispensável para qualquer ser humano que quer ser mais.
 
